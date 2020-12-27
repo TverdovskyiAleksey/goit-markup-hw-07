@@ -13,9 +13,9 @@
   align-items: baseline;
 }
 .logo-white {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
+  font-family: $logo-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-medium;
   line-height: 1.38;
   text-decoration: none;
 
@@ -25,9 +25,9 @@
 .address {
   display: block;
 
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
-  font-size: 14px;
+  font-size: $font-size-regular;
   line-height: 1.17;
   text-decoration: none;
 
@@ -41,8 +41,8 @@
 .footer-address .link {
   display: block;
 
+  font-size: $font-size-regular;
   font-style: normal;
-  font-size: 14px;
   line-height: 1.17;
   text-decoration: none;
 
@@ -66,9 +66,9 @@
   display: block;
   margin-bottom: 20px;
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
+  font-family: $main-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-regular;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -126,9 +126,9 @@
   display: block;
   margin-bottom: 20px;
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
+  font-family: $main-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-regular;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -164,9 +164,9 @@
 
   width: 200px;
   height: 50px;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
+  font-family: $main-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-button;
   line-height: 1.8;
   letter-spacing: 0.06em;
 

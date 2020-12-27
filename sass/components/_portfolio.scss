@@ -2,8 +2,8 @@
   display: inline-block;
   padding: 6px 22px;
 
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-button;
   line-height: 1.6;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -76,8 +76,8 @@
 .projects-title {
   margin: 0;
 
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: $font-weight-bold;
+  font-size: $project-title;
   line-height: 2;
 
   color: $title-text-color;
@@ -138,8 +138,8 @@
 .product-text {
   margin: 0;
 
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: $font-weight-regular;
+  font-size: $product-text;
   line-height: 1.55;
   letter-spacing: 0.03em;
   width: 100%;
@@ -163,7 +163,7 @@
   margin: 0;
   margin-top: 4px;
 
-  font-size: 16px;
+  font-size: $project-text;
   line-height: 1.87;
 
   color: $primary-text-color;

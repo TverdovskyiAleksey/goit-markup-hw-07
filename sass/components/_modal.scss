@@ -78,9 +78,9 @@
   text-align: center;
   margin-bottom: 12px;
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 20px;
+  font-family: $main-font;
+  font-weight: $font-weight-bold;
+  font-size: $form-title;
   line-height: 1.15;
   letter-spacing: 0.03em;
 
@@ -95,9 +95,9 @@
 }
 
 .row-name {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 12px;
+  font-family: $main-font;
+  font-weight: $font-weight-regular;
+  font-size: $modal-row-name;
   line-height: 1.17;
   letter-spacing: 0.01em;
 
@@ -148,9 +148,9 @@
 .form-comment {
   margin-bottom: 20px;
 
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 12px;
+  font-family: $main-font;
+  font-weight: $font-weight-regular;
+  font-size: $modal-row-name;
   line-height: 1.16;
   letter-spacing: 0.01em;
 
@@ -190,9 +190,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
+
+  font-family: $main-font;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-regular;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -234,9 +235,9 @@
   padding: 10px 55px;
   margin-top: 30px;
 
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
+  font-family: $main-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-button;
   line-height: 1.8;
   letter-spacing: 0.06em;
 

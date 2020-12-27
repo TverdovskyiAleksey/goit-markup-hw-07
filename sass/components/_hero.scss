@@ -17,8 +17,8 @@
 .hero-title {
   margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
+  font-weight: $font-weight-black;
+  font-size: $font-size-large;
   line-height: 1.4;
   text-transform: uppercase;
 
@@ -31,8 +31,8 @@
   padding: 10px 32px;
 
   min-width: 136px;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-button;
   line-height: 1.8;
   border: 2px solid $accent-color;
   border-radius: 4px;

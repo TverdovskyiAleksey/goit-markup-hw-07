@@ -19,9 +19,9 @@
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
+  font-family: $logo-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-medium;
   line-height: 1.19;
   text-decoration: none;
 
@@ -29,7 +29,7 @@
 }
 
 .logo-blue {
-  font-family: Raleway, sans-serif;
+  font-family: $logo-font;
   color: $accent-color;
 }
 
@@ -39,8 +39,8 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-regular;
   line-height: 1.14;
   text-decoration: none;
 
@@ -63,8 +63,8 @@
 }
 
 .contacts-header .link {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-regular;
   line-height: 1.14;
   text-decoration: none;
 
